@@ -1,18 +1,25 @@
-const {createElement} = React
+//ECMA Script
+
 const {render} = ReactDOM
 
-const title = createElement(
-    'hi',
-    {id:'title', className: 'header'},
-    'Hello World'
-)
+const style = {
+    backgroundColor: 'orange',
+    color: 'white',
+    fontFamily: 'verdana'
+}
 
+ 
 render(
-    title, //what we want to render
+    <h1 id='title'
+        className='header'
+        style = {{backgroundColor: 'orange', color: 'white', fontFamily: 'verdana'
+}}>
+    Hello World
+    </h1>, 
     document.getElementById('react-container') //target the DOM element
 )
 
-
+////original
 
 // const title = React.createElement(
 //     'hi',
