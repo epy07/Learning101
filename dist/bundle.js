@@ -12,6 +12,6 @@ render(React.createElement(
         className: 'header',
         style: { backgroundColor: 'orange', color: 'white', fontFamily: 'verdana'
         } },
-    'Hello World'
+    'Hello qweqwr'
 ), document.getElementById('react-container') //target the DOM element
 );

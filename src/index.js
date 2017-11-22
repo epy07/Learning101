@@ -9,7 +9,7 @@ render(
         className='header'
         style = {{backgroundColor: 'orange', color: 'white', fontFamily: 'verdana'
 }}>
-    Hello World
+    Jeffrey
     </h1>, 
     document.getElementById('react-container') //target the DOM element
 )
